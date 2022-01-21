@@ -1,0 +1,168 @@
+Git Hub Training for S1-S1-E31
+
+Jan 19 2022. 10:48 AM
+
+1. SCM (Source Code Management).
+2. Introduction to Git Hub.
+3. Clarify misconceptions about GitHub.
+4. Git.
+5. History of Version Control Software.
+6. Setting up Git.
+7. Three - Tier architecture of Git
+8. Basic Git Commands
+9. Initialize.
+
+Programming ? Complier ? ??
+Storage.
+
+GitHub (not open source) MS. SCM tool using Git
+
+GitLab
+
+Git is a open source version control manager.  
+
+
+Different version of same files ?
+
+Report.final
+report.final.final
+report.final.abatasachifinal
+
+images.png
+images.BW.png
+images.Vivid.png
+
+Manage different versions of a file 
+
+Version Control ?
+Distrubed. "branch"
+
+1970s -> originalFile 
+			track changes and save
+			OF -> V5OF
+			V1
+			V2
+			V3
+			V4
+			V5
+1980s -> LatestCopy
+			track changes and save
+			LC -> OF
+			V5(LC)
+			V4
+			V3
+			V2
+			V1 (OF)
+hence foward
+
+2003 -> Linux.. Kernel Millions of contributors... SCM... version control
+Linux made use of a not source ... free Licensed
+
+Linux community feared not open source software 
+
+2006 : this came true. 
+
+Linus Torvalds... Git (open source) -> manage Linux Kernels
+
+different versions of version control software
+
+Operating System
+
+Layers
+
+Desktop
+GUI.
+System Maintainance Applications
+System Development
+Kernel -> HW interaction, critical tasks of any OS
+
+2007 -> 100
+2008 -> K
+2009 -> M
+
+Version Control Manager
+
+System Development
+
+v1 -> server -> clients are using it
+repository
+
+workingCopy ?? 
+	restore
+	discardchanges
+	addModifications
+	and so on
+
+v2 -> maintainance, bug fixing, feature adding, wearables integration
+
+diff -> difference between object
+
+any version control manager has a two tier architecture
+
+Git has a three tier architecture.
+	- working Directory
+	- staging index
+	- repo
+
+	Linus Trovalds 
+
+	levels 
+
+	local files -> make changes
+	staging -> staged
+	repo -> commit
+
+Git Hub Training for S1-S1-E31 - Day 2
+
+Jan 21 2022. 10:45 AM
+
+Welcome All!
+
+List of Present Students
+Aakash Pun Magar
+Aashish Singh
+Ashish Lamichane*
+Amisha KC
+Bikesh Baiju
+Dinesh Lal Das
+Gagan Tamang
+Kushal Poudel
+Manisha SApkota
+Parth Dhungana
+Prabin Subedi
+Prawina Nepal
+Rohan Joshi
+Roshan Sapkota
+Rupak Rajbanshi
+Sameer Thapa
+Sulav Karki
+
+
+10. Basic Git commands.
+	- add files to staging index
+	- commit Files 
+	- restore Files
+	- Multi Line Commit
+	- Commit directly to repo
+11. Tracking versions/changes
+	- SHA for Data Integrity
+	- Diff (WD vs repo)
+	- --color-words
+	- staged (SI vs Repo)
+12. Work with Git Hub
+	- set Github account
+	- make a 101 Git hub repo
+	- make settings in our local
+	- access Github remotely via Git
+	- Pull and push
+	- Understanding the most recent change in Git Hub
+13. Assignment / Task
+	- upload our work to GitHub Classroom
+
+SHA -> Secure Hash Algorithm 
+
+takes in parameters to generate a long random string
+
+String function SHA-1(AuthorDetails,ContentsofFiles,DateTime,ChangesMadeIfany,PreviousCommitNamesIfany,CommitMessage){
+	
+}
